@@ -1,0 +1,56 @@
+:root {
+  /* UI backgrounds */
+  --ui-primary: #1e1a2f;       /* dark purple background */
+  --ui-secondary: #2b233f;     /* slightly lighter */
+  --ui-tertiary: #362d4b;      /* card backgrounds, panels */
+
+  --ui-modal-overlay: rgba(88, 65, 135, 0.85); /* translucent purple overlay */
+
+  --ui-white: #ffffff;
+  --ui-white-dim: rgba(255, 255, 255, 0.75);
+  --ui-white-transparent: rgba(255, 255, 255, 0.25);
+  --ui-transparent: transparent;
+
+  --ui-black-transparent: rgba(0, 0, 0, 0.35);
+
+  /* Text colors */
+  --text-primary: #e6e6ff;         /* off-white text */
+  --text-primary-transparent: rgba(230, 230, 255, 0.75);
+
+  /* Accent colors */
+  --motion-primary: #a75fff;       /* bright purple for buttons/highlights */
+  --motion-tertiary: #8b3ecf;      /* darker purple accent */
+  --motion-transparent: rgba(167, 95, 255, 0.35);
+  --motion-light-transparent: rgba(167, 95, 255, 0.15);
+
+  /* Theme overrides */
+  --motion-primary-dark: #8b3ecf;
+  --ui-primary-light: #1e1a2f;
+  --ui-secondary-light: #2b233f;
+  --ui-tertiary-light: #362d4b;
+  --text-primary-light: #e6e6ff;
+
+  /* Categories / Blocks */
+  --red-primary: #a75fff;          /* purple blocks instead of red */
+  --red-tertiary: #8b3ecf;
+
+  --sound-primary: #c0ff33;        /* lime green for sound */
+  --sound-tertiary: #a4d600;
+
+  --control-primary: #c0ff33;      /* lime green for control blocks */
+  --data-primary: #bfff66;         /* lime green for data blocks */
+
+  --pen-primary: #a75fff;          /* purple pen blocks */
+  --pen-transparent: rgba(167, 95, 255, 0.25);
+
+  --error-primary: #ff66a3;        /* pink/red for errors */
+  --error-light: #ff99c1;
+  --error-transparent: rgba(255, 102, 163, 0.25);
+
+  --extensions-primary: #a75fff;   /* purple for extensions */
+  --extensions-tertiary: #8b3ecf;
+  --extensions-transparent: rgba(167, 95, 255, 0.35);
+  --extensions-light: #9b5fff;
+
+  --drop-highlight: #c0ff33;       /* lime green highlight for drops */
+}
