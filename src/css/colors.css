@@ -1,52 +1,56 @@
-$ui-primary: var(--ui-primary, hsla(215, 100%, 95%, 1)); /* #E5F0FF */
-$ui-secondary: var(--ui-secondary, hsla(215, 75%, 95%, 1)); /* #E9F1FC */
-$ui-tertiary: var(--ui-tertiary, hsla(215, 50%, 90%, 1)); /* #D9E3F2 */
+/* UI backgrounds */
+$ui-primary: var(--ui-primary, #101a33); 
+$ui-secondary: var(--ui-secondary, #0e1730);
+$ui-tertiary: var(--ui-tertiary, #0b1220);
 
-$ui-modal-overlay: var(--ui-modal-overlay, hsla(194, 100%, 65%, 0.9)); /* 90% transparent version of motion-primary */
+$ui-modal-overlay: var(--ui-modal-overlay, rgba(26, 42, 85, 0.9)); 
 
-$ui-white: hsla(0, 100%, 100%, 1); /* #FFFFFF */
-$ui-white-dim: hsla(0, 100%, 100%, 0.75); /* 25% transparent version of ui-white */
-$ui-white-transparent: hsla(0, 100%, 100%, 0.25); /* 25% transparent version of ui-white */
-$ui-transparent: hsla(0, 100%, 100%, 0); /* 25% transparent version of ui-white */
+$ui-white: #ffffff;
+$ui-white-dim: rgba(255, 255, 255, 0.75);
+$ui-white-transparent: rgba(255, 255, 255, 0.25);
+$ui-transparent: transparent;
 
-$ui-black-transparent-default: hsla(0, 0%, 0%, 0.15); /* 15% transparent version of black */
+$ui-black-transparent-default: rgba(0, 0, 0, 0.35);
 $ui-black-transparent: var(--ui-black-transparent, $ui-black-transparent-default);
 
-$text-primary: var(--text-primary, hsla(225, 15%, 40%, 1)); /* #575E75 */
-$text-primary-transparent: hsla(225, 15%, 40%, 0.75);
+/* Text colors */
+$text-primary: var(--text-primary, #e6ecff);
+$text-primary-transparent: rgba(230, 236, 255, 0.75);
 
-$motion-primary: hsla(194, 100%, 50%, 1); /* #00c3ff */
-$motion-tertiary: hsla(203, 100%, 39%, 1); /* #007bc7 */
-$motion-transparent: hsla(194, 100%, 50%, 0.35); /* 35% transparent version of motion-primary */
-$motion-light-transparent: hsla(203, 100%, 39%, 0.15); /* 15% transparent version of motion-primary */
+/* Accent colors (motion/selection highlights) */
+$motion-primary: #1a2a55;     /* button background */
+$motion-tertiary: #233057;    /* darker accent */
+$motion-transparent: rgba(26, 42, 85, 0.35);
+$motion-light-transparent: rgba(26, 42, 85, 0.15);
 
-/* opt-in theme overrides */
-$motion-primary-dark: #009CCC; /*top bar color when in dark mode*/
-$ui-primary-light: hsla(215, 100%, 95%, 1);
-$ui-secondary-light: hsla(215, 75%, 95%, 1);
-$ui-tertiary-light: hsla(215, 50%, 90%, 1);
-$text-primary-light: hsla(225, 15%, 40%, 1);
+/* Theme overrides */
+$motion-primary-dark: #0e1730; 
+$ui-primary-light: #101a33;
+$ui-secondary-light: #0e1730;
+$ui-tertiary-light: #0b1220;
+$text-primary-light: #e6ecff;
 
-$red-primary: hsla(194, 100%, 50%, 1); /* #00c3ff */
-$red-tertiary: hsla(203, 100%, 39%, 1); /* #007bc7 */
+/* Categories (re-tinted for dark theme) */
+$red-primary: #e84855; 
+$red-tertiary: #c73645;
 
-$sound-primary: hsla(300, 53%, 60%, 1); /* #CF63CF */
-$sound-tertiary: hsla(300, 48%, 50%, 1); /* #BD42BD */
+$sound-primary: #bb5fe8;
+$sound-tertiary: #9b48c1;
 
-$control-primary: hsla(38, 100%, 55%, 1); /* #FFAB19 */
+$control-primary: #f4b400; 
 
-$data-primary: hsla(30, 100%, 55%, 1); /* #FF8C1A */
+$data-primary: #ff8c1a; 
 
-$pen-primary: hsla(163, 85%, 40%, 1); /* #0FBD8C */
-$pen-transparent: hsla(163, 85%, 40%, 0.25); /* #0FBD8C */
+$pen-primary: #0fbd8c;
+$pen-transparent: rgba(15, 189, 140, 0.25);
 
-$error-primary: hsla(30, 100%, 55%, 1); /* #FF8C1A */
-$error-light: hsla(30, 100%, 70%, 1); /* #FFB366 */
-$error-transparent: hsla(30, 100%, 55%, 0.25); /* #FF8C1A */
+$error-primary: #ff5c5c;
+$error-light: #ff8888;
+$error-transparent: rgba(255, 92, 92, 0.25);
 
-$extensions-primary: hsla(194, 100%, 50%, 1);
-$extensions-tertiary: hsla(203, 100%, 39%, 1);
-$extensions-transparent: hsla(194, 100%, 50%, 0.35); /* 35% transparent version of extensions-primary */
-$extensions-light: hsla(203, 100%, 39%, 1); /* opaque version of extensions-transparent, on white bg */
+$extensions-primary: #1a2a55;
+$extensions-tertiary: #233057;
+$extensions-transparent: rgba(26, 42, 85, 0.35);
+$extensions-light: #2b3b6d;
 
-$drop-highlight: hsla(194, 100%, 77%, 1); /* lighter than motion-primary */
+$drop-highlight: #2b3b6d;
